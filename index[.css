@@ -1,5 +1,5 @@
-header {
-    background: #BBBBBB;
+eader {
+    background: #007cb6;
 }
 
 nav li {
@@ -9,8 +9,21 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #330606;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+nav a:hover {
+    color: #640303c2;
+    text-decoration: underline;
+}
+.produtos li:hover {
+    border-color: #2f0299de;
+}
+.produtos li:active {
+    border-color: #1b0352;    
+}
+.produtos li:hover h2 {
+    font-size: 34px;
 }
